@@ -110,8 +110,8 @@ const portfolioData = {
             type: "Academic Research & Penetration Testing",
             title: "Mobile Application Reverse Engineering and Defensive Architecture Analysis",
             image: "assets/projects/moble-app-security-testing.webp",
-            description: "An advanced mobile security project focused on Android application package (APK) reverse engineering, malicious payload integration, and modern platform defense strategies.",
-            //  The project documents the step-by-step process of decompiling an open-source template (OpenCalc), hooking a staged Meterpreter payload, optimizing binary structures using 'zipalign' on 4-byte boundaries, and cryptographically signing the recompiled package with V2/V3 schemes via 'apksigner' to satisfy strict OS integrity constraints across modern Android versions (11 through 15+). It also highlights critical engineering fixes for DEX 64K method limit overflows and runtime thread crashes, concluding with enterprise-level mitigation blueprints including code obfuscation, RASP, and hardware-level attestation.",
+            //description: "An advanced mobile security project focused on Android application package (APK) reverse engineering, malicious payload integration, and modern platform defense strategies.",
+            description: "A mobile security research project exploring Android application analysis, reverse engineering concepts, and defensive strategies, including application integrity, runtime protection, and platform security.",
             tags: [
                 "Mobile Security",
                 "Reverse Engineering",
