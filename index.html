@@ -12,7 +12,7 @@
 <body>
     <header>
         <a class="logo" href="#home">M<span>.</span> MAZEN</a>
-        <button id="menu" aria-label="Menu">☰</button>
+        <button id="menu" aria-label="Menu" data-aria-label-en="Menu" data-aria-label-ar="القائمة">☰</button>
         <nav id="nav">
             <a href="#about" data-en="About" data-ar="نبذة عني">About</a>
             <a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a>
@@ -23,7 +23,7 @@
             <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
         </nav>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark theme"
-            title="Toggle dark theme">☾ <span data-en="Dark mode" data-ar="الوضع الداكن">Dark
+            title="Toggle dark theme" data-aria-label-en="Toggle dark theme" data-aria-label-ar="تبديل المظهر الداكن" data-title-en="Toggle dark theme" data-title-ar="تبديل المظهر الداكن">☾ <span data-en="Dark mode" data-ar="الوضع الداكن">Dark
                 mode</span>
         </button>
         <button id="lang">العربية</button>
@@ -35,9 +35,8 @@
     <main>
         <section id="home" class="hero wrap">
             <div>
-                <p class="eyebrow">INFORMATION TECHNOLOGY • PRACTICAL LEARNING</p>
-                <h1 data-en="Hi, I'm"data-ar="مرحبا انا">Hi, I'm </h1>
-                    <h1><span data-en="Mazen Al-Hajouri" data-ar="مازن الحجوري" >Mazen Al-Hajouri</span></h1>
+                <p class="eyebrow" data-en="INFORMATION TECHNOLOGY • PRACTICAL LEARNING" data-ar="تقنية المعلومات • تعلّم عملي">INFORMATION TECHNOLOGY • PRACTICAL LEARNING</p>
+                <h1><span class="hero-greeting" data-en="Hi, I'm" data-ar="مرحبا انا">Hi, I'm</span><span class="hero-name" data-en="Mazen Al-Hajouri" data-ar="مازن الحجوري">Mazen Al-Hajouri</span></h1>
                 
                 <h2 data-en="IT Student | Software, Networking & Cybersecurity"
                     data-ar="طالب تقنية معلومات | البرمجة والشبكات والأمن السيبراني">IT Student | Software, Networking &
@@ -51,18 +50,18 @@
                     ↘</a> <a class="btn outline" href="assets/Mazen_Al_Hajouri_CV.pdf" download data-en="Download CV"
                     data-ar="تحميل السيرة">Download CV</a>
                 <p class="social"><a href="https://www.linkedin.com/in/mazen-al-hajouri-30031839a"
-                        target="_blank">LinkedIn ↗</a>　<a href="https://github.com/mal221491mazen-star"
-                        target="_blank">GitHub ↗</a></p>
+                        target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>　<a href="https://github.com/mal221491mazen-star"
+                        target="_blank" rel="noopener noreferrer">GitHub ↗</a></p>
             </div>
             <div class="visual">
                 <div class="rings"></div><img class="profile-photo" src="assets/profile-photo.png"
-                    alt="Mazen Al-Hajouri profile photo"
+                    alt="Mazen Al-Hajouri profile photo" data-alt-en="Mazen Al-Hajouri profile photo" data-alt-ar="الصورة الشخصية لمازن الحجوري"
                     onerror="this.onerror=null;this.src='assets/profile-placeholder.svg';">
-                <label>IT • CODE • NETWORKS</label>
+                <label data-en="IT • CODE • NETWORKS" data-ar="تقنية المعلومات • البرمجة • الشبكات">IT • CODE • NETWORKS</label>
             </div>
         </section>
         <section id="about" class="wrap section">
-            <p class="eyebrow">01 / INTRODUCTION</p>
+            <p class="eyebrow" data-en="01 / INTRODUCTION" data-ar="٠١ / نبذة تعريفية">01 / INTRODUCTION</p>
             <h2 data-en="About me" data-ar="نبذة عني">About me</h2>
             <div class="two">
                 <h3 data-en="Third-year Information Technology student at Al-Hikma University, interested in building useful technology and developing strong practical skills."
@@ -79,7 +78,7 @@
         </section>
         <section id="skills" class="section shaded">
             <div class="wrap">
-                <p class="eyebrow">02 / WHAT I WORK WITH</p>
+                <p class="eyebrow" data-en="02 / WHAT I WORK WITH" data-ar="٠٢ / المهارات والأدوات">02 / WHAT I WORK WITH</p>
                 <h2 data-en="Skills & tools" data-ar="المهارات والأدوات">Skills & tools</h2>
                 <h3 data-en="Hands-on practice" data-ar="مهارات طبّقتها عملياً">Hands-on practice</h3>
                 <div id="skillsPractice" class="grid"></div>
@@ -93,16 +92,16 @@
             </div>
         </section>
         <section id="projects" class="wrap section">
-            <p class="eyebrow">03 / SELECTED WORK</p>
+            <p class="eyebrow" data-en="03 / SELECTED WORK" data-ar="٠٣ / مشاريع مختارة">03 / SELECTED WORK</p>
             <h2 data-en="Projects" data-ar="المشاريع">Projects</h2>
             <div class="carousel-tools"><button type="button" id="projectsPrev"
-                    aria-label="Previous projects">←</button><span data-en="Swipe or scroll to explore"
+                    aria-label="Previous projects" data-aria-label-en="Previous projects" data-aria-label-ar="المشاريع السابقة">←</button><span data-en="Swipe or scroll to explore"
                     data-ar="اسحب أو مرّر لاستكشاف المشاريع">Swipe or scroll to explore</span><button type="button"
-                    id="projectsNext" aria-label="Next projects">→</button></div>
+                    id="projectsNext" aria-label="Next projects" data-aria-label-en="Next projects" data-aria-label-ar="المشاريع التالية">→</button></div>
             <div id="projectsGrid" class="grid projects" aria-label="Project carousel"></div>
         </section>
         <section id="experience" class="wrap section">
-            <p class="eyebrow">04 / EXPERIENCE & VOLUNTEERING</p>
+            <p class="eyebrow" data-en="04 / EXPERIENCE & VOLUNTEERING" data-ar="٠٤ / الخبرة والتطوع">04 / EXPERIENCE & VOLUNTEERING</p>
             <h2 data-en="Experience & volunteering" data-ar="الخبرة والتطوع">Experience & volunteering</h2>
             <div id="experienceList" class="timeline"></div>
             <p class="hint"
@@ -112,13 +111,13 @@
         </section>
         <section id="education" class="section shaded">
             <div class="wrap">
-                <p class="eyebrow">04 / LEARNING PATH</p>
+                <p class="eyebrow" data-en="05 / LEARNING PATH" data-ar="٠٥ / المسار التعليمي">04 / LEARNING PATH</p>
                 <h2 data-en="Education" data-ar="التعليم">Education</h2>
                 <div id="educationList" class="timeline"></div>
             </div>
         </section>
         <section id="certificates" class="wrap section">
-            <p class="eyebrow">05 / CREDENTIALS & GROWTH</p>
+            <p class="eyebrow" data-en="06 / CREDENTIALS & GROWTH" data-ar="٠٦ / الشهادات والتطوير">05 / CREDENTIALS & GROWTH</p>
             <h2 data-en="Certificates & development" data-ar="الشهادات والتطوير">Certificates & development</h2>
             <p class="muted"
                 data-en="Only completed credentials are presented as certificates. Training in progress is labelled separately."
@@ -135,22 +134,22 @@
         </section>
         <section id="contact" class="section contact">
             <div class="wrap">
-                <p class="eyebrow">06 / LET'S CONNECT</p>
+                <p class="eyebrow" data-en="07 / LET'S CONNECT" data-ar="٠٧ / لنتواصل">06 / LET'S CONNECT</p>
                 <h2 data-en="Have an opportunity or a project?" data-ar="هل لديك فرصة أو مشروع؟">Have an opportunity or
                     a project?</h2>
                 <p class="muted"
                     data-en="Open to internships, collaboration, learning opportunities and entry-level IT roles."
                     data-ar="أرحب بفرص التدريب والتعاون والتعلم والوظائف المبتدئة في تقنية المعلومات.">Open to
                     internships, collaboration, learning opportunities and entry-level IT roles.</p><a class="btn"
-                    href="https://www.linkedin.com/in/mazen-al-hajouri-30031839a" target="_blank">Connect on LinkedIn
-                    ↗</a> <a class="btn outline" href="https://github.com/mal221491mazen-star" target="_blank">Explore
-                    GitHub ↗</a> <a class="btn outline" href="assets/Mazen_Al_Hajouri_CV.pdf" download>Download CV ↓</a>
+                    href="https://www.linkedin.com/in/mazen-al-hajouri-30031839a" target="_blank" rel="noopener noreferrer" data-en="Connect on LinkedIn ↗" data-ar="تواصل معي عبر LinkedIn ↗">Connect on LinkedIn
+                    ↗</a> <a class="btn outline" href="https://github.com/mal221491mazen-star" target="_blank" rel="noopener noreferrer" data-en="Explore GitHub ↗" data-ar="استكشف GitHub ↗">Explore
+                    GitHub ↗</a> <a class="btn outline" href="assets/Mazen_Al_Hajouri_CV.pdf" download data-en="Download CV ↓" data-ar="تحميل السيرة الذاتية ↓">Download CV ↓</a>
             </div>
 
         </section>
     </main>
-    <footer><span>© <span id="year"></span> Mazen Al-Hajouri</span><span>Built to grow with my career.</span><a
-            href="#home">Back to top ↑</a></footer>
+        <footer><span>© <span id="year"></span> Mazen Al-Hajouri</span><span data-en="A portfolio that grows with my career." data-ar="ملف أعمال يتطور مع مسيرتي المهنية.">A portfolio that grows with my career.</span><a
+            href="#home" data-en="Back to top ↑" data-ar="العودة إلى الأعلى ↑">Back to top ↑</a></footer>
     <script src="portfolio-data.js"></script>
     <script src="script.js"></script>
 </body>
