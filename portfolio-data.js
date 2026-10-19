@@ -58,8 +58,8 @@ const portfolioData = {
             number: "01",
             type: "Collaborative Information System",
             title: "Bank of Documents",
-            // image: "assets/projects/bank-of-documents.svg",
-            image: "assets/projects/bank-of-documents.jfif",
+            image: "assets/projects/bank-of-documents.svg",
+            //image: "assets/projects/bank-of-documents.jfif",
             description: "Collaborative information-system project for storing, classifying, searching, viewing and sharing official documents. Contributions included requirements analysis, workflows, DFD/UML diagrams, data dictionary, WBS and Jira task planning. A dedicated public GitHub repository is not currently linked.",
             tags: ["Requirements analysis", "DFD / UML", "Documentation", "Jira", "Project Managements", "WBS", "Software Devolopment"],
             links: []
@@ -68,8 +68,8 @@ const portfolioData = {
             number: "02",
             type: "Web App Concept",
             title: "Aljadbi — Wedding Kousha Rental",
-            // image: "assets/projects/aljadbi-app.svg", 
-            image: "assets/projects/aljadbi-app.webp",
+            image: "assets/projects/aljadbi-app.svg", 
+            //image: "assets/projects/aljadbi-app.webp",
             description: "Yemeni wedding kousha rental concept with browsing, price discovery, date selection, booking requests, customer-owner chat and request receipts. A prototype is available online.",
             tags: ["TypeScript repository", "Product concept", "Mobile UX"],
             links:
@@ -96,8 +96,8 @@ const portfolioData = {
             number: "04",
             type: "Desktop Application",
             title: "Personal Expenses Manager",
-            // image: "assets/projects/personal-expenses-manager.svg",
-            image: "assets/projects/personal-expenses-manager.JPG",
+            image: "assets/projects/personal-expenses-manager.svg",
+            //image: "assets/projects/personal-expenses-manager.JPG",
             description: "C# Windows Forms personal-finance management application using SQL Server and LINQ to SQL.",
             tags: ["C#", "Windows Forms", "SQL Server", "LINQ to SQL", ".NET Freamework"],
             links: [
@@ -109,7 +109,8 @@ const portfolioData = {
             number: "05",
             type: "Academic Research & Penetration Testing",
             title: "Mobile Application Reverse Engineering and Defensive Architecture Analysis",
-            image: "assets/projects/moble-app-security-testing.webp",
+            //image: "assets/projects/moble-app-security-testing.webp",
+            image: "assets/projects/ecommerce-website.svg",
             //description: "An advanced mobile security project focused on Android application package (APK) reverse engineering, malicious payload integration, and modern platform defense strategies.",
             description: "A mobile security research project exploring Android application analysis, reverse engineering concepts, and defensive strategies, including application integrity, runtime protection, and platform security.",
             tags: [
@@ -211,7 +212,8 @@ const portfolioData = {
         {
             icon: "🚀",
             title: "Modern Project Management & AI Application",
-            image: "assets/certificates/learn.png.jfif",
+            image: "assets/certificates/tesol-certtificate.svg",
+            //image: "assets/certificates/learn.png.jfif",
             issuer: "Lrnrs Academy",
             description: "A 3-hour webinar exploring contemporary project management methodologies integrated with artificial intelligence tools to optimize operational workflows.",
             url: "https://media.licdn.com/dms/image/v2/D4E2DAQHHPeH9ygmU_w/profile-treasury-image-shrink_800_800/B4EaAHDZAcI0AI-/0/1786824724791?e=1792616400&v=beta&t=0ZMPHPJc9SRqhzqzW2GRypu_TBRQe0FhOBi9_nBUL1Y",
